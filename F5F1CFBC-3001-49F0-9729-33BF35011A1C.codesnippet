@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>MODropAlertView *alertView = [[MODropAlertView alloc]initDropAlertWithTitle:@"提示"
+                                                                    description:@""
+                                                                  okButtonTitle:@"确定"
+                                                              cancelButtonTitle:@"取消"
+                                                                   successBlock:^{
+                                                                       
+                                                                   }
+                                                                   failureBlock:^{
+                                                                       
+                                                                   }];
+    [alertView show];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F5F1CFBC-3001-49F0-9729-33BF35011A1C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MODAlertView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rightItems</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *searchBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    searchBtn.frame = CGRectMake(0, 0, 40, 40);
+    [searchBtn setImage:[UIImage imageNamed:@"tabbar_home"] forState:UIControlStateNormal];
+    
+    UIButton *timeBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [timeBtn  setImage:[UIImage imageNamed:@"tabbar_home"] forState:UIControlStateNormal];
+    timeBtn.frame = CGRectMake(0, 0, 40, 40);
+    
+    UIButton *moreBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [moreBtn setImage:[UIImage imageNamed:@"tabbar_home"] forState:UIControlStateNormal];
+    moreBtn.frame = CGRectMake(0, 0, 40, 40);
+    
+    UIBarButtonItem *barSearchBtn=[[UIBarButtonItem alloc]initWithCustomView:searchBtn];
+    UIBarButtonItem *barTimeBtn=[[UIBarButtonItem alloc]initWithCustomView:timeBtn];
+    UIBarButtonItem *barMoreBtn=[[UIBarButtonItem alloc]initWithCustomView:moreBtn];
+    
+    UIBarButtonItem *spaceItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+    
+    NSArray *rightBtns=[NSArray arrayWithObjects:barSearchBtn, spaceItem, barTimeBtn, barMoreBtn, nil];
+    
+    self.navigationItem.rightBarButtonItems = rightBtns;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>53E65E5C-1939-404A-B560-F9EBE128A213</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MyRightBarButtonItems</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
